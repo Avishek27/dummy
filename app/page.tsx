@@ -5,7 +5,7 @@ import { useState } from "react";
 import confetti from "canvas-confetti";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-
+import Image from "next/image";
 export default function ValentinePage() {
   const [showLetter, setShowLetter] = useState(false);
   const [noPosition, setNoPosition] = useState({ x: 0, y: 0 });
@@ -113,6 +113,16 @@ export default function ValentinePage() {
                   animate={{ opacity: 1, scale: 1 }}
                   className="space-y-4"
                 >
+                  <div className="flex justify-center mb-3">
+                    <div className="relative w-40 h-40">
+                      <Image
+                        src="/love-photo.jpeg"
+                        alt="Us"
+                        fill
+                        className="object-cover rounded-2xl shadow-lg"
+                      />
+                    </div>
+                  </div>
                   <p className="text-2xl font-semibold text-rose-600">
                     YAYYY!! 💕🥰
                   </p>
