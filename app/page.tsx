@@ -40,7 +40,7 @@ export default function ValentinePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-200 via-pink-100 to-rose-200 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-linear-to-br from-pink-200 via-pink-100 to-rose-200 flex items-center justify-center p-4">
       <Card className="max-w-xl w-full rounded-2xl shadow-xl bg-pink-50">
         <CardContent className="p-6 text-center space-y-6">
           {/* Teddy */}
